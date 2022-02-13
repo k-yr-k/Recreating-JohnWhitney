@@ -27,7 +27,6 @@ void draw() {
   //change stroke thickness
   strokeWeight(2.5);
 
-  
   //yellow line
   for (int i = 0; i < totalLines; i++){
     stroke(#dcd5bf);
