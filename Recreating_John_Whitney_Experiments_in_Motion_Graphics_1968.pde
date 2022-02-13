@@ -1,10 +1,12 @@
 // Recreating 'Experiments in Motion Graphics', 1968, by John Whitney
 //     Original: https://www.youtube.com/watch?v=jIv-EcX9tUs&t=264s
-// Recreated by Kenny Kim, 2022.02.13
+// Recreated by Kenny Kim
+// 2022.02.13
 
-//John Whitney used 31 lines in both
+//Whitney used 31 lines too
 static final int totalLines = 31;
 
+//assign movement variable
 float t;
 
 void setup() {
@@ -19,17 +21,17 @@ void draw() {
   //to clear lines after totalLines
   background(#07181D);
   
-  //change stroke thickness
-  strokeWeight(2.5);
-  
   //center art to the canvas
   translate(width/2, height/2);
+  
+  //change stroke thickness
+  strokeWeight(2.5);
+
   
   //yellow line
   for (int i = 0; i < totalLines; i++){
     stroke(#dcd5bf);
     line(x1(t + i), y1(t + i), x2(t + i), y2(t + i));
-
   }
 
   //pink lines
