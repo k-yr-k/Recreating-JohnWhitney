@@ -1,7 +1,9 @@
 // Recreating 'Experiments in Motion Graphics', 1968, by John Whitney
 //     Original: https://www.youtube.com/watch?v=jIv-EcX9tUs&t=264s
+// Credits to Alexander Miller for helping with general outline of approach
 // Recreated by Kenny Kim
 // 2022.02.13
+
 
 //Whitney used 31 lines too
 static final int totalLines = 31;
