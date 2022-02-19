@@ -1,4 +1,4 @@
-# Recreating-JohnWhitney
+# Recreating John Whitney
 Recreating John Whitney's 'Experiments in Motion Graphics', 1968.
 
 ![](Recr_JohnWhitney.gif)
